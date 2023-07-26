@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import FirebaseAuth
 
 class RegisterViewController: UIViewController {
     
@@ -87,6 +88,7 @@ class RegisterViewController: UIViewController {
         field.leftView = UIView(frame: CGRect(x: 0, y: 0, width: 5, height: 0))
         field.leftViewMode = .always
         field.backgroundColor = .white
+        field.textContentType = .oneTimeCode
         field.isSecureTextEntry = true
         return field
     }()
@@ -177,6 +179,16 @@ class RegisterViewController: UIViewController {
         }
         
         // Firebase Log In
+        
+        FirebaseAuth.Auth.auth().createUser(withEmail: email, password: password, completion: { authResult, error in
+            guard let result = authResult, error == nil else {
+                print("Error Creating User")
+                return
+            }
+            
+            let user = result.user
+            print("Created User: \(user)")
+        })
     }
     
     func alertUserLoginError() {
