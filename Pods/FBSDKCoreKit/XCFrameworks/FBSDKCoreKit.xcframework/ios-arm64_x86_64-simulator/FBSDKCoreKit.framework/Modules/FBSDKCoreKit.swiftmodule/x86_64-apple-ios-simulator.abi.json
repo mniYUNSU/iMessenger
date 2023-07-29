@@ -13472,9 +13472,107 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "protectedModeManager",
+            "printedName": "protectedModeManager",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "_AppEventsParameterProcessing",
+                "printedName": "FBSDKCoreKit._AppEventsParameterProcessing",
+                "usr": "c:objc(pl)FBSDKAppEventsParameterProcessing"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12FBSDKCoreKit04CoreB10ComponentsC20protectedModeManagerSo33FBSDKAppEventsParameterProcessing_pvp",
+            "mangledName": "$s12FBSDKCoreKit04CoreB10ComponentsC20protectedModeManagerSo33FBSDKAppEventsParameterProcessing_pvp",
+            "moduleName": "FBSDKCoreKit",
+            "declAttributes": [
+              "Final",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 70,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "_AppEventsParameterProcessing",
+                    "printedName": "FBSDKCoreKit._AppEventsParameterProcessing",
+                    "usr": "c:objc(pl)FBSDKAppEventsParameterProcessing"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FBSDKCoreKit04CoreB10ComponentsC20protectedModeManagerSo33FBSDKAppEventsParameterProcessing_pvg",
+                "mangledName": "$s12FBSDKCoreKit04CoreB10ComponentsC20protectedModeManagerSo33FBSDKAppEventsParameterProcessing_pvg",
+                "moduleName": "FBSDKCoreKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent",
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "macaRuleMatchingManager",
+            "printedName": "macaRuleMatchingManager",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MACARuleMatching",
+                "printedName": "FBSDKCoreKit.MACARuleMatching",
+                "usr": "c:@M@FBSDKCoreKit@objc(pl)FBSDKMACARuleMatching"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12FBSDKCoreKit04CoreB10ComponentsC23macaRuleMatchingManagerAA08MACARuleG0_pvp",
+            "mangledName": "$s12FBSDKCoreKit04CoreB10ComponentsC23macaRuleMatchingManagerAA08MACARuleG0_pvp",
+            "moduleName": "FBSDKCoreKit",
+            "declAttributes": [
+              "Final",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 71,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MACARuleMatching",
+                    "printedName": "FBSDKCoreKit.MACARuleMatching",
+                    "usr": "c:@M@FBSDKCoreKit@objc(pl)FBSDKMACARuleMatching"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FBSDKCoreKit04CoreB10ComponentsC23macaRuleMatchingManagerAA08MACARuleG0_pvg",
+                "mangledName": "$s12FBSDKCoreKit04CoreB10ComponentsC23macaRuleMatchingManagerAA08MACARuleG0_pvg",
+                "moduleName": "FBSDKCoreKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent",
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(accessTokenExpirer:accessTokenWallet:advertiserIDProvider:aemNetworker:aemReporter:appEventParametersExtractor:appEvents:appEventsConfigurationProvider:appEventsDropDeterminer:appEventsStateProvider:appEventsStateStore:appEventsUtility:appLinkEventPoster:appLinkFactory:appLinkResolver:appLinkTargetFactory:appLinkURLFactory:atePublisherFactory:authenticationTokenWallet:backgroundEventLogger:capiReporter:codelessIndexer:crashHandler:crashObserver:dataExtractor:defaultDataStore:deviceInformationProvider:dialogConfigurationMapBuilder:errorConfigurationProvider:errorFactory:errorReporter:eventDeactivationManager:eventLogger:featureChecker:featureExtractor:fileManager:gateKeeperManager:getApplicationActivationNotifier:graphRequestConnectionFactory:graphRequestFactory:impressionLoggerFactory:infoDictionaryProvider:internalURLOpener:internalUtility:logger:loggerFactory:macCatalystDeterminator:metadataIndexer:modelManager:notificationCenter:operatingSystemVersionComparer:paymentObserver:piggybackManager:profileSetter:restrictiveDataFilterManager:rulesFromKeyProvider:serverConfigurationProvider:sessionDataTaskProvider:settings:skAdNetworkReporter:suggestedEventsIndexer:swizzler:timeSpentRecorder:tokenCache:urlHoster:urlSessionProxyFactory:userDataStore:userIDProvider:webViewProvider:aemManager:)",
+            "printedName": "init(accessTokenExpirer:accessTokenWallet:advertiserIDProvider:aemNetworker:aemReporter:appEventParametersExtractor:appEvents:appEventsConfigurationProvider:appEventsDropDeterminer:appEventsStateProvider:appEventsStateStore:appEventsUtility:appLinkEventPoster:appLinkFactory:appLinkResolver:appLinkTargetFactory:appLinkURLFactory:atePublisherFactory:authenticationTokenWallet:backgroundEventLogger:capiReporter:codelessIndexer:crashHandler:crashObserver:dataExtractor:defaultDataStore:deviceInformationProvider:dialogConfigurationMapBuilder:errorConfigurationProvider:errorFactory:errorReporter:eventDeactivationManager:eventLogger:featureChecker:featureExtractor:fileManager:gateKeeperManager:getApplicationActivationNotifier:graphRequestConnectionFactory:graphRequestFactory:impressionLoggerFactory:infoDictionaryProvider:internalURLOpener:internalUtility:logger:loggerFactory:macCatalystDeterminator:metadataIndexer:modelManager:notificationCenter:operatingSystemVersionComparer:paymentObserver:piggybackManager:profileSetter:restrictiveDataFilterManager:rulesFromKeyProvider:serverConfigurationProvider:sessionDataTaskProvider:settings:skAdNetworkReporter:suggestedEventsIndexer:swizzler:timeSpentRecorder:tokenCache:urlHoster:urlSessionProxyFactory:userDataStore:userIDProvider:webViewProvider:aemManager:protectedModeManager:macaRuleMatchingManager:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -13987,11 +14085,23 @@
                 "name": "_AutoSetup",
                 "printedName": "FBSDKCoreKit._AutoSetup",
                 "usr": "c:objc(pl)FBSDKAutoSetup"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "_AppEventsParameterProcessing",
+                "printedName": "FBSDKCoreKit._AppEventsParameterProcessing",
+                "usr": "c:objc(pl)FBSDKAppEventsParameterProcessing"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MACARuleMatching",
+                "printedName": "FBSDKCoreKit.MACARuleMatching",
+                "usr": "c:@M@FBSDKCoreKit@objc(pl)FBSDKMACARuleMatching"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:12FBSDKCoreKit04CoreB10ComponentsC18accessTokenExpirer0eF6Wallet20advertiserIDProvider12aemNetworker0K8Reporter27appEventParametersExtractor0N6Events0nR21ConfigurationProvider0nR14DropDeterminer0nr5StateT00nrW5Store0nR7Utility0n4LinkO6Poster0nZ7Factory0nZ8Resolver0nZ13TargetFactory0nZ10URLFactory19atePublisherFactory014authenticationfH0010backgroundO6Logger04capiM015codelessIndexer12crashHandler13crashObserver04dataQ0011defaultDataX0017deviceInformationT006dialogS10MapBuilder05errorsT012errorFactory05errorM024eventDeactivationManager11eventLogger14featureChecker07featureQ011fileManager17gateKeeperManager32getApplicationActivationNotifier29graphRequestConnectionFactory19graphRequestFactory23impressionLoggerFactory014infoDictionaryT017internalURLOpener08internalY06logger13loggerFactory23macCatalystDeterminator15metadataIndexer12modelManager18notificationCenter30operatingSystemVersionComparer15paymentObserver16piggybackManager13profileSetter28restrictiveDataFilterManager012rulesFromKeyT006serversT0015sessionDataTaskT08settings011skAdNetworkM009suggestedR7Indexer8swizzler17timeSpentRecorder10tokenCache9urlHoster22urlSessionProxyFactory08userDataX004userJ007webViewT00K7ManagerAcA07_AccessF8Expiring_p_So011FBSDKAccessF9Providing_So25FBSDKTokenStringProvidingpXpSo26FBSDKAdvertiserIDProviding_p8FBAEMKit13AEMNetworking_pSgAA20_AEMReporterProtocol_pXpSo08FBSDKAppoP10Extracting_pSo17FBSDKEventLogging_So08FBSDKAppR11ConfiguringSo26FBSDKApplicationActivatingSo34FBSDKApplicationLifecycleObservingSo016FBSDKApplicationW7SettingSo30FBSDKSourceApplicationTrackingpSo08FBSDKApprS9Providing_pSo08FBSDKAppoU11Determining_pSo08FBSDKApprW9Providing_pSo08FBSDKApprW10Persisting_pSoA62__SoA54_So08FBSDKApprY0So21FBSDKLoggingNotifyingpSo08FBSDKAppzO7Posting_pSo08FBSDKAppZ8Creating_pSo08FBSDKAppZ9Resolving_pSo08FBSDKAppZ14TargetCreating_pSo08FBSDKAppZ11URLCreating_pSo25FBSDKATEPublisherCreating_pSo019FBSDKAuthenticationF9Providing_pXpAA010BackgroundO7Logging_pAA12CAPIReporter_pSo21FBSDKCodelessIndexing_pXpSo17FBSDKCrashHandler_pSo19FBSDKCrashObserving_pSo23FBSDKFileDataExtracting_pXpSo19FBSDKDataPersisting_pSo31FBSDKDeviceInformationProviding_pSo011FBSDKDialogS11MapBuilding_pSo010FBSDKErrorS9Providing_pSo18FBSDKErrorCreating_pSo19FBSDKErrorReporting_pSo08FBSDKAppR19ParameterProcessing_So21FBSDKEventsProcessingpSoA55__pSo20FBSDKFeatureChecking_So21FBSDKFeatureDisablingpSo22FBSDKFeatureExtracting_pXpSo17FBSDKFileManaging_pSo23FBSDKGateKeeperManaging_pXpypycSo34FBSDKGraphRequestConnectionFactory_pSo24FBSDKGraphRequestFactory_pSo28FBSDKImpressionLoggerFactory_pSo28FBSDKInfoDictionaryProviding_pSo22FBSDKInternalURLOpener_pSo013FBSDKInternalY0_pSo12FBSDKLogging_pXpSo21__FBSDKLoggerCreating_pSo27FBSDKMacCatalystDetermining_pSo21FBSDKMetadataIndexing_pSo20FBSDKEventProcessing_So014FBSDKIntegrityp9ProcessorT0pSo25_FBSDKNotificationPosting_So27FBSDKNotificationDeliveringpSo36FBSDKOperatingSystemVersionComparing_pSo21FBSDKPaymentObserving_pSo34FBSDKGraphRequestPiggybackManaging_pAA16ProfileProviding_pXpSoA86__SoA87_pSo017FBSDKRulesFromKeyT0_pSo011FBSDKServerS9Providing_pSo24FBSDKURLSessionProviding_pSo20FBSDKSettingsLogging_AA16SettingsProtocolpA50_20SKAdNetworkReporting_So08FBSDKApprM0pSgSo014FBSDKSuggestedR7Indexer_pSo14FBSDKSwizzling_pXpSoA60__So23FBSDKTimeSpentRecordingpSo17FBSDKTokenCaching_pSo15FBSDKURLHosting_pSo29FBSDKURLSessionProxyProviding_pSo23FBSDKUserDataPersisting_pSo20FBSDKUserIDProviding_pSo21FBSDKWebViewProviding_pSo14FBSDKAutoSetup_ptcfc",
-            "mangledName": "$s12FBSDKCoreKit04CoreB10ComponentsC18accessTokenExpirer0eF6Wallet20advertiserIDProvider12aemNetworker0K8Reporter27appEventParametersExtractor0N6Events0nR21ConfigurationProvider0nR14DropDeterminer0nr5StateT00nrW5Store0nR7Utility0n4LinkO6Poster0nZ7Factory0nZ8Resolver0nZ13TargetFactory0nZ10URLFactory19atePublisherFactory014authenticationfH0010backgroundO6Logger04capiM015codelessIndexer12crashHandler13crashObserver04dataQ0011defaultDataX0017deviceInformationT006dialogS10MapBuilder05errorsT012errorFactory05errorM024eventDeactivationManager11eventLogger14featureChecker07featureQ011fileManager17gateKeeperManager32getApplicationActivationNotifier29graphRequestConnectionFactory19graphRequestFactory23impressionLoggerFactory014infoDictionaryT017internalURLOpener08internalY06logger13loggerFactory23macCatalystDeterminator15metadataIndexer12modelManager18notificationCenter30operatingSystemVersionComparer15paymentObserver16piggybackManager13profileSetter28restrictiveDataFilterManager012rulesFromKeyT006serversT0015sessionDataTaskT08settings011skAdNetworkM009suggestedR7Indexer8swizzler17timeSpentRecorder10tokenCache9urlHoster22urlSessionProxyFactory08userDataX004userJ007webViewT00K7ManagerAcA07_AccessF8Expiring_p_So011FBSDKAccessF9Providing_So25FBSDKTokenStringProvidingpXpSo26FBSDKAdvertiserIDProviding_p8FBAEMKit13AEMNetworking_pSgAA20_AEMReporterProtocol_pXpSo08FBSDKAppoP10Extracting_pSo17FBSDKEventLogging_So08FBSDKAppR11ConfiguringSo26FBSDKApplicationActivatingSo34FBSDKApplicationLifecycleObservingSo016FBSDKApplicationW7SettingSo30FBSDKSourceApplicationTrackingpSo08FBSDKApprS9Providing_pSo08FBSDKAppoU11Determining_pSo08FBSDKApprW9Providing_pSo08FBSDKApprW10Persisting_pSoA62__SoA54_So08FBSDKApprY0So21FBSDKLoggingNotifyingpSo08FBSDKAppzO7Posting_pSo08FBSDKAppZ8Creating_pSo08FBSDKAppZ9Resolving_pSo08FBSDKAppZ14TargetCreating_pSo08FBSDKAppZ11URLCreating_pSo25FBSDKATEPublisherCreating_pSo019FBSDKAuthenticationF9Providing_pXpAA010BackgroundO7Logging_pAA12CAPIReporter_pSo21FBSDKCodelessIndexing_pXpSo17FBSDKCrashHandler_pSo19FBSDKCrashObserving_pSo23FBSDKFileDataExtracting_pXpSo19FBSDKDataPersisting_pSo31FBSDKDeviceInformationProviding_pSo011FBSDKDialogS11MapBuilding_pSo010FBSDKErrorS9Providing_pSo18FBSDKErrorCreating_pSo19FBSDKErrorReporting_pSo08FBSDKAppR19ParameterProcessing_So21FBSDKEventsProcessingpSoA55__pSo20FBSDKFeatureChecking_So21FBSDKFeatureDisablingpSo22FBSDKFeatureExtracting_pXpSo17FBSDKFileManaging_pSo23FBSDKGateKeeperManaging_pXpypycSo34FBSDKGraphRequestConnectionFactory_pSo24FBSDKGraphRequestFactory_pSo28FBSDKImpressionLoggerFactory_pSo28FBSDKInfoDictionaryProviding_pSo22FBSDKInternalURLOpener_pSo013FBSDKInternalY0_pSo12FBSDKLogging_pXpSo21__FBSDKLoggerCreating_pSo27FBSDKMacCatalystDetermining_pSo21FBSDKMetadataIndexing_pSo20FBSDKEventProcessing_So014FBSDKIntegrityp9ProcessorT0pSo25_FBSDKNotificationPosting_So27FBSDKNotificationDeliveringpSo36FBSDKOperatingSystemVersionComparing_pSo21FBSDKPaymentObserving_pSo34FBSDKGraphRequestPiggybackManaging_pAA16ProfileProviding_pXpSoA86__SoA87_pSo017FBSDKRulesFromKeyT0_pSo011FBSDKServerS9Providing_pSo24FBSDKURLSessionProviding_pSo20FBSDKSettingsLogging_AA16SettingsProtocolpA50_20SKAdNetworkReporting_So08FBSDKApprM0pSgSo014FBSDKSuggestedR7Indexer_pSo14FBSDKSwizzling_pXpSoA60__So23FBSDKTimeSpentRecordingpSo17FBSDKTokenCaching_pSo15FBSDKURLHosting_pSo29FBSDKURLSessionProxyProviding_pSo23FBSDKUserDataPersisting_pSo20FBSDKUserIDProviding_pSo21FBSDKWebViewProviding_pSo14FBSDKAutoSetup_ptcfc",
+            "usr": "s:12FBSDKCoreKit04CoreB10ComponentsC18accessTokenExpirer0eF6Wallet20advertiserIDProvider12aemNetworker0K8Reporter27appEventParametersExtractor0N6Events0nR21ConfigurationProvider0nR14DropDeterminer0nr5StateT00nrW5Store0nR7Utility0n4LinkO6Poster0nZ7Factory0nZ8Resolver0nZ13TargetFactory0nZ10URLFactory19atePublisherFactory014authenticationfH0010backgroundO6Logger04capiM015codelessIndexer12crashHandler13crashObserver04dataQ0011defaultDataX0017deviceInformationT006dialogS10MapBuilder05errorsT012errorFactory05errorM024eventDeactivationManager11eventLogger14featureChecker07featureQ011fileManager17gateKeeperManager32getApplicationActivationNotifier29graphRequestConnectionFactory19graphRequestFactory23impressionLoggerFactory014infoDictionaryT017internalURLOpener08internalY06logger13loggerFactory23macCatalystDeterminator15metadataIndexer12modelManager18notificationCenter30operatingSystemVersionComparer15paymentObserver16piggybackManager13profileSetter28restrictiveDataFilterManager012rulesFromKeyT006serversT0015sessionDataTaskT08settings011skAdNetworkM009suggestedR7Indexer8swizzler17timeSpentRecorder10tokenCache9urlHoster22urlSessionProxyFactory08userDataX004userJ007webViewT00K7Manager20protectedModeManager23macaRuleMatchingManagerAcA07_AccessF8Expiring_p_So011FBSDKAccessF9Providing_So25FBSDKTokenStringProvidingpXpSo26FBSDKAdvertiserIDProviding_p8FBAEMKit13AEMNetworking_pSgAA20_AEMReporterProtocol_pXpSo08FBSDKAppoP10Extracting_pSo17FBSDKEventLogging_So08FBSDKAppR11ConfiguringSo26FBSDKApplicationActivatingSo34FBSDKApplicationLifecycleObservingSo016FBSDKApplicationW7SettingSo30FBSDKSourceApplicationTrackingpSo08FBSDKApprS9Providing_pSo08FBSDKAppoU11Determining_pSo08FBSDKApprW9Providing_pSo08FBSDKApprW10Persisting_pSoA64__SoA56_So08FBSDKApprY0So21FBSDKLoggingNotifyingpSo08FBSDKAppzO7Posting_pSo08FBSDKAppZ8Creating_pSo08FBSDKAppZ9Resolving_pSo08FBSDKAppZ14TargetCreating_pSo08FBSDKAppZ11URLCreating_pSo25FBSDKATEPublisherCreating_pSo019FBSDKAuthenticationF9Providing_pXpAA010BackgroundO7Logging_pAA12CAPIReporter_pSo21FBSDKCodelessIndexing_pXpSo17FBSDKCrashHandler_pSo19FBSDKCrashObserving_pSo23FBSDKFileDataExtracting_pXpSo19FBSDKDataPersisting_pSo31FBSDKDeviceInformationProviding_pSo011FBSDKDialogS11MapBuilding_pSo010FBSDKErrorS9Providing_pSo18FBSDKErrorCreating_pSo19FBSDKErrorReporting_pSo08FBSDKAppR19ParameterProcessing_So21FBSDKEventsProcessingpSoA57__pSo20FBSDKFeatureChecking_So21FBSDKFeatureDisablingpSo22FBSDKFeatureExtracting_pXpSo17FBSDKFileManaging_pSo23FBSDKGateKeeperManaging_pXpypycSo34FBSDKGraphRequestConnectionFactory_pSo24FBSDKGraphRequestFactory_pSo28FBSDKImpressionLoggerFactory_pSo28FBSDKInfoDictionaryProviding_pSo22FBSDKInternalURLOpener_pSo013FBSDKInternalY0_pSo12FBSDKLogging_pXpSo21__FBSDKLoggerCreating_pSo27FBSDKMacCatalystDetermining_pSo21FBSDKMetadataIndexing_pSo20FBSDKEventProcessing_So014FBSDKIntegrityp9ProcessorT0pSo25_FBSDKNotificationPosting_So27FBSDKNotificationDeliveringpSo36FBSDKOperatingSystemVersionComparing_pSo21FBSDKPaymentObserving_pSo34FBSDKGraphRequestPiggybackManaging_pAA16ProfileProviding_pXpSoA88__SoA89_pSo017FBSDKRulesFromKeyT0_pSo011FBSDKServerS9Providing_pSo24FBSDKURLSessionProviding_pSo20FBSDKSettingsLogging_AA16SettingsProtocolpA52_20SKAdNetworkReporting_So08FBSDKApprM0pSgSo014FBSDKSuggestedR7Indexer_pSo14FBSDKSwizzling_pXpSoA62__So23FBSDKTimeSpentRecordingpSo17FBSDKTokenCaching_pSo15FBSDKURLHosting_pSo29FBSDKURLSessionProxyProviding_pSo23FBSDKUserDataPersisting_pSo20FBSDKUserIDProviding_pSo21FBSDKWebViewProviding_pSo14FBSDKAutoSetup_pSoA88__pAA16MACARuleMatching_ptcfc",
+            "mangledName": "$s12FBSDKCoreKit04CoreB10ComponentsC18accessTokenExpirer0eF6Wallet20advertiserIDProvider12aemNetworker0K8Reporter27appEventParametersExtractor0N6Events0nR21ConfigurationProvider0nR14DropDeterminer0nr5StateT00nrW5Store0nR7Utility0n4LinkO6Poster0nZ7Factory0nZ8Resolver0nZ13TargetFactory0nZ10URLFactory19atePublisherFactory014authenticationfH0010backgroundO6Logger04capiM015codelessIndexer12crashHandler13crashObserver04dataQ0011defaultDataX0017deviceInformationT006dialogS10MapBuilder05errorsT012errorFactory05errorM024eventDeactivationManager11eventLogger14featureChecker07featureQ011fileManager17gateKeeperManager32getApplicationActivationNotifier29graphRequestConnectionFactory19graphRequestFactory23impressionLoggerFactory014infoDictionaryT017internalURLOpener08internalY06logger13loggerFactory23macCatalystDeterminator15metadataIndexer12modelManager18notificationCenter30operatingSystemVersionComparer15paymentObserver16piggybackManager13profileSetter28restrictiveDataFilterManager012rulesFromKeyT006serversT0015sessionDataTaskT08settings011skAdNetworkM009suggestedR7Indexer8swizzler17timeSpentRecorder10tokenCache9urlHoster22urlSessionProxyFactory08userDataX004userJ007webViewT00K7Manager20protectedModeManager23macaRuleMatchingManagerAcA07_AccessF8Expiring_p_So011FBSDKAccessF9Providing_So25FBSDKTokenStringProvidingpXpSo26FBSDKAdvertiserIDProviding_p8FBAEMKit13AEMNetworking_pSgAA20_AEMReporterProtocol_pXpSo08FBSDKAppoP10Extracting_pSo17FBSDKEventLogging_So08FBSDKAppR11ConfiguringSo26FBSDKApplicationActivatingSo34FBSDKApplicationLifecycleObservingSo016FBSDKApplicationW7SettingSo30FBSDKSourceApplicationTrackingpSo08FBSDKApprS9Providing_pSo08FBSDKAppoU11Determining_pSo08FBSDKApprW9Providing_pSo08FBSDKApprW10Persisting_pSoA64__SoA56_So08FBSDKApprY0So21FBSDKLoggingNotifyingpSo08FBSDKAppzO7Posting_pSo08FBSDKAppZ8Creating_pSo08FBSDKAppZ9Resolving_pSo08FBSDKAppZ14TargetCreating_pSo08FBSDKAppZ11URLCreating_pSo25FBSDKATEPublisherCreating_pSo019FBSDKAuthenticationF9Providing_pXpAA010BackgroundO7Logging_pAA12CAPIReporter_pSo21FBSDKCodelessIndexing_pXpSo17FBSDKCrashHandler_pSo19FBSDKCrashObserving_pSo23FBSDKFileDataExtracting_pXpSo19FBSDKDataPersisting_pSo31FBSDKDeviceInformationProviding_pSo011FBSDKDialogS11MapBuilding_pSo010FBSDKErrorS9Providing_pSo18FBSDKErrorCreating_pSo19FBSDKErrorReporting_pSo08FBSDKAppR19ParameterProcessing_So21FBSDKEventsProcessingpSoA57__pSo20FBSDKFeatureChecking_So21FBSDKFeatureDisablingpSo22FBSDKFeatureExtracting_pXpSo17FBSDKFileManaging_pSo23FBSDKGateKeeperManaging_pXpypycSo34FBSDKGraphRequestConnectionFactory_pSo24FBSDKGraphRequestFactory_pSo28FBSDKImpressionLoggerFactory_pSo28FBSDKInfoDictionaryProviding_pSo22FBSDKInternalURLOpener_pSo013FBSDKInternalY0_pSo12FBSDKLogging_pXpSo21__FBSDKLoggerCreating_pSo27FBSDKMacCatalystDetermining_pSo21FBSDKMetadataIndexing_pSo20FBSDKEventProcessing_So014FBSDKIntegrityp9ProcessorT0pSo25_FBSDKNotificationPosting_So27FBSDKNotificationDeliveringpSo36FBSDKOperatingSystemVersionComparing_pSo21FBSDKPaymentObserving_pSo34FBSDKGraphRequestPiggybackManaging_pAA16ProfileProviding_pXpSoA88__SoA89_pSo017FBSDKRulesFromKeyT0_pSo011FBSDKServerS9Providing_pSo24FBSDKURLSessionProviding_pSo20FBSDKSettingsLogging_AA16SettingsProtocolpA52_20SKAdNetworkReporting_So08FBSDKApprM0pSgSo014FBSDKSuggestedR7Indexer_pSo14FBSDKSwizzling_pXpSoA62__So23FBSDKTimeSpentRecordingpSo17FBSDKTokenCaching_pSo15FBSDKURLHosting_pSo29FBSDKURLSessionProxyProviding_pSo23FBSDKUserDataPersisting_pSo20FBSDKUserIDProviding_pSo21FBSDKWebViewProviding_pSo14FBSDKAutoSetup_pSoA88__pAA16MACARuleMatching_ptcfc",
             "moduleName": "FBSDKCoreKit",
             "declAttributes": [
               "RawDocComment"
@@ -15978,14 +16088,22 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "Name",
-                "printedName": "FBSDKCoreKit.AppEvents.Name",
-                "usr": "c:FBSDKAppEventName.h@T@FBSDKAppEventName"
+                "name": "Optional",
+                "printedName": "FBSDKCoreKit.AppEvents.Name?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Name",
+                    "printedName": "FBSDKCoreKit.AppEvents.Name",
+                    "usr": "c:FBSDKAppEventName.h@T@FBSDKAppEventName"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Func",
-            "usr": "s:12FBSDKCoreKit24EventDeactivationManagerC17processParameters_9eventNameSDySo08FBSDKAppc9ParameterI0aypGSgAI_So0jcI0atF",
-            "mangledName": "$s12FBSDKCoreKit24EventDeactivationManagerC17processParameters_9eventNameSDySo08FBSDKAppc9ParameterI0aypGSgAI_So0jcI0atF",
+            "usr": "s:12FBSDKCoreKit24EventDeactivationManagerC17processParameters_9eventNameSDySo08FBSDKAppc9ParameterI0aypGSgAI_So0jcI0aSgtF",
+            "mangledName": "$s12FBSDKCoreKit24EventDeactivationManagerC17processParameters_9eventNameSDySo08FBSDKAppc9ParameterI0aypGSgAI_So0jcI0aSgtF",
             "moduleName": "FBSDKCoreKit",
             "objc_name": "processParameters:eventName:",
             "declAttributes": [
@@ -29429,6 +29547,1381 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FBSDKCoreKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MACARuleMatching",
+        "printedName": "MACARuleMatching",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "enable",
+            "printedName": "enable()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@FBSDKCoreKit@objc(pl)FBSDKMACARuleMatching(im)enable",
+            "mangledName": "$s12FBSDKCoreKit16MACARuleMatchingP6enableyyF",
+            "moduleName": "FBSDKCoreKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : FBSDKCoreKit.MACARuleMatching>",
+            "sugared_genericSig": "<Self where Self : FBSDKCoreKit.MACARuleMatching>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "processParameters",
+            "printedName": "processParameters(_:event:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.NSDictionary?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSDictionary",
+                    "printedName": "Foundation.NSDictionary",
+                    "usr": "c:objc(cs)NSDictionary"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.NSDictionary?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSDictionary",
+                    "printedName": "Foundation.NSDictionary",
+                    "usr": "c:objc(cs)NSDictionary"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@FBSDKCoreKit@objc(pl)FBSDKMACARuleMatching(im)processParameters:event:",
+            "mangledName": "$s12FBSDKCoreKit16MACARuleMatchingP17processParameters_5eventSo12NSDictionaryCSgAH_SSSgtF",
+            "moduleName": "FBSDKCoreKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : FBSDKCoreKit.MACARuleMatching>",
+            "sugared_genericSig": "<Self where Self : FBSDKCoreKit.MACARuleMatching>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@FBSDKCoreKit@objc(pl)FBSDKMACARuleMatching",
+        "mangledName": "$s12FBSDKCoreKit16MACARuleMatchingP",
+        "moduleName": "FBSDKCoreKit",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "objc_name": "FBSDKMACARuleMatching",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FBSDKCoreKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MACARuleMatchingManager",
+        "printedName": "MACARuleMatchingManager",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "isEnable",
+            "printedName": "isEnable",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12FBSDKCoreKit23MACARuleMatchingManagerC8isEnable33_0BB5878F933DE26C4692A35EA0FEF78ALLSbvp",
+            "mangledName": "$s12FBSDKCoreKit23MACARuleMatchingManagerC8isEnable33_0BB5878F933DE26C4692A35EA0FEF78ALLSbvp",
+            "moduleName": "FBSDKCoreKit",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 0,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "macaRules",
+            "printedName": "macaRules",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12FBSDKCoreKit23MACARuleMatchingManagerC9macaRules33_0BB5878F933DE26C4692A35EA0FEF78ALLSaySSGvp",
+            "mangledName": "$s12FBSDKCoreKit23MACARuleMatchingManagerC9macaRules33_0BB5878F933DE26C4692A35EA0FEF78ALLSaySSGvp",
+            "moduleName": "FBSDKCoreKit",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 1,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "keys",
+            "printedName": "keys",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12FBSDKCoreKit23MACARuleMatchingManagerC4keys33_0BB5878F933DE26C4692A35EA0FEF78ALLSaySSGvp",
+            "mangledName": "$s12FBSDKCoreKit23MACARuleMatchingManagerC4keys33_0BB5878F933DE26C4692A35EA0FEF78ALLSaySSGvp",
+            "moduleName": "FBSDKCoreKit",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 2,
+            "isLet": true,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "configuredDependencies",
+            "printedName": "configuredDependencies",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "FBSDKCoreKit.MACARuleMatchingManager.ObjectDependencies?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ObjectDependencies",
+                    "printedName": "FBSDKCoreKit.MACARuleMatchingManager.ObjectDependencies",
+                    "usr": "s:12FBSDKCoreKit23MACARuleMatchingManagerC18ObjectDependenciesV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12FBSDKCoreKit23MACARuleMatchingManagerC22configuredDependenciesAC06ObjectG0VSgvp",
+            "mangledName": "$s12FBSDKCoreKit23MACARuleMatchingManagerC22configuredDependenciesAC06ObjectG0VSgvp",
+            "moduleName": "FBSDKCoreKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 3,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "FBSDKCoreKit.MACARuleMatchingManager.ObjectDependencies?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ObjectDependencies",
+                        "printedName": "FBSDKCoreKit.MACARuleMatchingManager.ObjectDependencies",
+                        "usr": "s:12FBSDKCoreKit23MACARuleMatchingManagerC18ObjectDependenciesV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FBSDKCoreKit23MACARuleMatchingManagerC22configuredDependenciesAC06ObjectG0VSgvg",
+                "mangledName": "$s12FBSDKCoreKit23MACARuleMatchingManagerC22configuredDependenciesAC06ObjectG0VSgvg",
+                "moduleName": "FBSDKCoreKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "FBSDKCoreKit.MACARuleMatchingManager.ObjectDependencies?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ObjectDependencies",
+                        "printedName": "FBSDKCoreKit.MACARuleMatchingManager.ObjectDependencies",
+                        "usr": "s:12FBSDKCoreKit23MACARuleMatchingManagerC18ObjectDependenciesV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FBSDKCoreKit23MACARuleMatchingManagerC22configuredDependenciesAC06ObjectG0VSgvs",
+                "mangledName": "$s12FBSDKCoreKit23MACARuleMatchingManagerC22configuredDependenciesAC06ObjectG0VSgvs",
+                "moduleName": "FBSDKCoreKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FBSDKCoreKit23MACARuleMatchingManagerC22configuredDependenciesAC06ObjectG0VSgvM",
+                "mangledName": "$s12FBSDKCoreKit23MACARuleMatchingManagerC22configuredDependenciesAC06ObjectG0VSgvM",
+                "moduleName": "FBSDKCoreKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "defaultDependencies",
+            "printedName": "defaultDependencies",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "FBSDKCoreKit.MACARuleMatchingManager.ObjectDependencies?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ObjectDependencies",
+                    "printedName": "FBSDKCoreKit.MACARuleMatchingManager.ObjectDependencies",
+                    "usr": "s:12FBSDKCoreKit23MACARuleMatchingManagerC18ObjectDependenciesV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12FBSDKCoreKit23MACARuleMatchingManagerC19defaultDependenciesAC06ObjectG0VSgvp",
+            "mangledName": "$s12FBSDKCoreKit23MACARuleMatchingManagerC19defaultDependenciesAC06ObjectG0VSgvp",
+            "moduleName": "FBSDKCoreKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 4,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "FBSDKCoreKit.MACARuleMatchingManager.ObjectDependencies?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ObjectDependencies",
+                        "printedName": "FBSDKCoreKit.MACARuleMatchingManager.ObjectDependencies",
+                        "usr": "s:12FBSDKCoreKit23MACARuleMatchingManagerC18ObjectDependenciesV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FBSDKCoreKit23MACARuleMatchingManagerC19defaultDependenciesAC06ObjectG0VSgvg",
+                "mangledName": "$s12FBSDKCoreKit23MACARuleMatchingManagerC19defaultDependenciesAC06ObjectG0VSgvg",
+                "moduleName": "FBSDKCoreKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "FBSDKCoreKit.MACARuleMatchingManager.ObjectDependencies?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ObjectDependencies",
+                        "printedName": "FBSDKCoreKit.MACARuleMatchingManager.ObjectDependencies",
+                        "usr": "s:12FBSDKCoreKit23MACARuleMatchingManagerC18ObjectDependenciesV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FBSDKCoreKit23MACARuleMatchingManagerC19defaultDependenciesAC06ObjectG0VSgvs",
+                "mangledName": "$s12FBSDKCoreKit23MACARuleMatchingManagerC19defaultDependenciesAC06ObjectG0VSgvs",
+                "moduleName": "FBSDKCoreKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FBSDKCoreKit23MACARuleMatchingManagerC19defaultDependenciesAC06ObjectG0VSgvM",
+                "mangledName": "$s12FBSDKCoreKit23MACARuleMatchingManagerC19defaultDependenciesAC06ObjectG0VSgvM",
+                "moduleName": "FBSDKCoreKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "enable",
+            "printedName": "enable()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@FBSDKCoreKit@objc(cs)FBSDKMACARuleMatchingManager(im)enable",
+            "mangledName": "$s12FBSDKCoreKit23MACARuleMatchingManagerC6enableyyF",
+            "moduleName": "FBSDKCoreKit",
+            "objc_name": "enable",
+            "declAttributes": [
+              "Final",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getKey",
+            "printedName": "getKey(logic:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12FBSDKCoreKit23MACARuleMatchingManagerC6getKey5logicSSSgSDySSypG_tF",
+            "mangledName": "$s12FBSDKCoreKit23MACARuleMatchingManagerC6getKey5logicSSSgSDySSypG_tF",
+            "moduleName": "FBSDKCoreKit",
+            "declAttributes": [
+              "Final"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stringComparison",
+            "printedName": "stringComparison(variable:values:data:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12FBSDKCoreKit23MACARuleMatchingManagerC16stringComparison8variable6values4dataSbSS_SDySSypGAHtF",
+            "mangledName": "$s12FBSDKCoreKit23MACARuleMatchingManagerC16stringComparison8variable6values4dataSbSS_SDySSypGAHtF",
+            "moduleName": "FBSDKCoreKit",
+            "declAttributes": [
+              "Final",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stringValueOf",
+            "printedName": "stringValueOf(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12FBSDKCoreKit23MACARuleMatchingManagerC13stringValueOfySSSgypSgF",
+            "mangledName": "$s12FBSDKCoreKit23MACARuleMatchingManagerC13stringValueOfySSSgypSgF",
+            "moduleName": "FBSDKCoreKit",
+            "declAttributes": [
+              "Final"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "doubleValueOf",
+            "printedName": "doubleValueOf(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12FBSDKCoreKit23MACARuleMatchingManagerC13doubleValueOfySdypSgF",
+            "mangledName": "$s12FBSDKCoreKit23MACARuleMatchingManagerC13doubleValueOfySdypSgF",
+            "moduleName": "FBSDKCoreKit",
+            "declAttributes": [
+              "Final"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isMatchCCRule",
+            "printedName": "isMatchCCRule(_:data:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12FBSDKCoreKit23MACARuleMatchingManagerC13isMatchCCRule_4dataSbSSSg_SDySSypGtF",
+            "mangledName": "$s12FBSDKCoreKit23MACARuleMatchingManagerC13isMatchCCRule_4dataSbSSSg_SDySSypGtF",
+            "moduleName": "FBSDKCoreKit",
+            "declAttributes": [
+              "Final"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getMatchPropertyIDs",
+            "printedName": "getMatchPropertyIDs(params:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12FBSDKCoreKit23MACARuleMatchingManagerC19getMatchPropertyIDs6paramsSSSDySSypG_tF",
+            "mangledName": "$s12FBSDKCoreKit23MACARuleMatchingManagerC19getMatchPropertyIDs6paramsSSSDySSypG_tF",
+            "moduleName": "FBSDKCoreKit",
+            "declAttributes": [
+              "Final"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "processParameters",
+            "printedName": "processParameters(_:event:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.NSDictionary?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSDictionary",
+                    "printedName": "Foundation.NSDictionary",
+                    "usr": "c:objc(cs)NSDictionary"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.NSDictionary?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSDictionary",
+                    "printedName": "Foundation.NSDictionary",
+                    "usr": "c:objc(cs)NSDictionary"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@FBSDKCoreKit@objc(cs)FBSDKMACARuleMatchingManager(im)processParameters:event:",
+            "mangledName": "$s12FBSDKCoreKit23MACARuleMatchingManagerC17processParameters_5eventSo12NSDictionaryCSgAH_SSSgtF",
+            "moduleName": "FBSDKCoreKit",
+            "objc_name": "processParameters:event:",
+            "declAttributes": [
+              "Final",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "generateInfo",
+            "printedName": "generateInfo(params:event:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "paramValueOwnership": "InOut",
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12FBSDKCoreKit23MACARuleMatchingManagerC12generateInfo6params5eventySDySSypGz_SSSgtF",
+            "mangledName": "$s12FBSDKCoreKit23MACARuleMatchingManagerC12generateInfo6params5eventySDySSypGz_SSSgtF",
+            "moduleName": "FBSDKCoreKit",
+            "declAttributes": [
+              "Final"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "removeGeneratedInfo",
+            "printedName": "removeGeneratedInfo(params:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "paramValueOwnership": "InOut",
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12FBSDKCoreKit23MACARuleMatchingManagerC19removeGeneratedInfo6paramsySDySSypGz_tF",
+            "mangledName": "$s12FBSDKCoreKit23MACARuleMatchingManagerC19removeGeneratedInfo6paramsySDySSypGz_tF",
+            "moduleName": "FBSDKCoreKit",
+            "declAttributes": [
+              "Final"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MACARuleMatchingManager",
+                "printedName": "FBSDKCoreKit.MACARuleMatchingManager",
+                "usr": "c:@M@FBSDKCoreKit@objc(cs)FBSDKMACARuleMatchingManager"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@FBSDKCoreKit@objc(cs)FBSDKMACARuleMatchingManager(im)init",
+            "mangledName": "$s12FBSDKCoreKit23MACARuleMatchingManagerCACycfc",
+            "moduleName": "FBSDKCoreKit",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "ObjectDependencies",
+            "printedName": "ObjectDependencies",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "serverConfigurationProvider",
+                "printedName": "serverConfigurationProvider",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "_ServerConfigurationProviding",
+                    "printedName": "FBSDKCoreKit._ServerConfigurationProviding",
+                    "usr": "c:objc(pl)FBSDKServerConfigurationProviding"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:12FBSDKCoreKit23MACARuleMatchingManagerC18ObjectDependenciesV27serverConfigurationProviderSo011FBSDKServerI9Providing_pvp",
+                "mangledName": "$s12FBSDKCoreKit23MACARuleMatchingManagerC18ObjectDependenciesV27serverConfigurationProviderSo011FBSDKServerI9Providing_pvp",
+                "moduleName": "FBSDKCoreKit",
+                "declAttributes": [
+                  "HasStorage"
+                ],
+                "fixedbinaryorder": 0,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "_ServerConfigurationProviding",
+                        "printedName": "FBSDKCoreKit._ServerConfigurationProviding",
+                        "usr": "c:objc(pl)FBSDKServerConfigurationProviding"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:12FBSDKCoreKit23MACARuleMatchingManagerC18ObjectDependenciesV27serverConfigurationProviderSo011FBSDKServerI9Providing_pvg",
+                    "mangledName": "$s12FBSDKCoreKit23MACARuleMatchingManagerC18ObjectDependenciesV27serverConfigurationProviderSo011FBSDKServerI9Providing_pvg",
+                    "moduleName": "FBSDKCoreKit",
+                    "implicit": true,
+                    "declAttributes": [
+                      "Transparent"
+                    ],
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "_ServerConfigurationProviding",
+                        "printedName": "FBSDKCoreKit._ServerConfigurationProviding",
+                        "usr": "c:objc(pl)FBSDKServerConfigurationProviding"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:12FBSDKCoreKit23MACARuleMatchingManagerC18ObjectDependenciesV27serverConfigurationProviderSo011FBSDKServerI9Providing_pvs",
+                    "mangledName": "$s12FBSDKCoreKit23MACARuleMatchingManagerC18ObjectDependenciesV27serverConfigurationProviderSo011FBSDKServerI9Providing_pvs",
+                    "moduleName": "FBSDKCoreKit",
+                    "implicit": true,
+                    "declAttributes": [
+                      "Transparent"
+                    ],
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:12FBSDKCoreKit23MACARuleMatchingManagerC18ObjectDependenciesV27serverConfigurationProviderSo011FBSDKServerI9Providing_pvM",
+                    "mangledName": "$s12FBSDKCoreKit23MACARuleMatchingManagerC18ObjectDependenciesV27serverConfigurationProviderSo011FBSDKServerI9Providing_pvM",
+                    "moduleName": "FBSDKCoreKit",
+                    "implicit": true,
+                    "declAttributes": [
+                      "Transparent"
+                    ],
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "deviceInformationProvider",
+                "printedName": "deviceInformationProvider",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "_DeviceInformationProviding",
+                    "printedName": "FBSDKCoreKit._DeviceInformationProviding",
+                    "usr": "c:objc(pl)FBSDKDeviceInformationProviding"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:12FBSDKCoreKit23MACARuleMatchingManagerC18ObjectDependenciesV25deviceInformationProviderSo011FBSDKDeviceI9Providing_pvp",
+                "mangledName": "$s12FBSDKCoreKit23MACARuleMatchingManagerC18ObjectDependenciesV25deviceInformationProviderSo011FBSDKDeviceI9Providing_pvp",
+                "moduleName": "FBSDKCoreKit",
+                "declAttributes": [
+                  "HasStorage"
+                ],
+                "fixedbinaryorder": 1,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "_DeviceInformationProviding",
+                        "printedName": "FBSDKCoreKit._DeviceInformationProviding",
+                        "usr": "c:objc(pl)FBSDKDeviceInformationProviding"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:12FBSDKCoreKit23MACARuleMatchingManagerC18ObjectDependenciesV25deviceInformationProviderSo011FBSDKDeviceI9Providing_pvg",
+                    "mangledName": "$s12FBSDKCoreKit23MACARuleMatchingManagerC18ObjectDependenciesV25deviceInformationProviderSo011FBSDKDeviceI9Providing_pvg",
+                    "moduleName": "FBSDKCoreKit",
+                    "implicit": true,
+                    "declAttributes": [
+                      "Transparent"
+                    ],
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "_DeviceInformationProviding",
+                        "printedName": "FBSDKCoreKit._DeviceInformationProviding",
+                        "usr": "c:objc(pl)FBSDKDeviceInformationProviding"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:12FBSDKCoreKit23MACARuleMatchingManagerC18ObjectDependenciesV25deviceInformationProviderSo011FBSDKDeviceI9Providing_pvs",
+                    "mangledName": "$s12FBSDKCoreKit23MACARuleMatchingManagerC18ObjectDependenciesV25deviceInformationProviderSo011FBSDKDeviceI9Providing_pvs",
+                    "moduleName": "FBSDKCoreKit",
+                    "implicit": true,
+                    "declAttributes": [
+                      "Transparent"
+                    ],
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:12FBSDKCoreKit23MACARuleMatchingManagerC18ObjectDependenciesV25deviceInformationProviderSo011FBSDKDeviceI9Providing_pvM",
+                    "mangledName": "$s12FBSDKCoreKit23MACARuleMatchingManagerC18ObjectDependenciesV25deviceInformationProviderSo011FBSDKDeviceI9Providing_pvM",
+                    "moduleName": "FBSDKCoreKit",
+                    "implicit": true,
+                    "declAttributes": [
+                      "Transparent"
+                    ],
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "settings",
+                "printedName": "settings",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SettingsProtocol",
+                    "printedName": "FBSDKCoreKit.SettingsProtocol",
+                    "usr": "c:@M@FBSDKCoreKit@objc(pl)FBSDKSettings"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:12FBSDKCoreKit23MACARuleMatchingManagerC18ObjectDependenciesV8settingsAA16SettingsProtocol_pvp",
+                "mangledName": "$s12FBSDKCoreKit23MACARuleMatchingManagerC18ObjectDependenciesV8settingsAA16SettingsProtocol_pvp",
+                "moduleName": "FBSDKCoreKit",
+                "declAttributes": [
+                  "HasStorage"
+                ],
+                "fixedbinaryorder": 2,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SettingsProtocol",
+                        "printedName": "FBSDKCoreKit.SettingsProtocol",
+                        "usr": "c:@M@FBSDKCoreKit@objc(pl)FBSDKSettings"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:12FBSDKCoreKit23MACARuleMatchingManagerC18ObjectDependenciesV8settingsAA16SettingsProtocol_pvg",
+                    "mangledName": "$s12FBSDKCoreKit23MACARuleMatchingManagerC18ObjectDependenciesV8settingsAA16SettingsProtocol_pvg",
+                    "moduleName": "FBSDKCoreKit",
+                    "implicit": true,
+                    "declAttributes": [
+                      "Transparent"
+                    ],
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SettingsProtocol",
+                        "printedName": "FBSDKCoreKit.SettingsProtocol",
+                        "usr": "c:@M@FBSDKCoreKit@objc(pl)FBSDKSettings"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:12FBSDKCoreKit23MACARuleMatchingManagerC18ObjectDependenciesV8settingsAA16SettingsProtocol_pvs",
+                    "mangledName": "$s12FBSDKCoreKit23MACARuleMatchingManagerC18ObjectDependenciesV8settingsAA16SettingsProtocol_pvs",
+                    "moduleName": "FBSDKCoreKit",
+                    "implicit": true,
+                    "declAttributes": [
+                      "Transparent"
+                    ],
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:12FBSDKCoreKit23MACARuleMatchingManagerC18ObjectDependenciesV8settingsAA16SettingsProtocol_pvM",
+                    "mangledName": "$s12FBSDKCoreKit23MACARuleMatchingManagerC18ObjectDependenciesV8settingsAA16SettingsProtocol_pvM",
+                    "moduleName": "FBSDKCoreKit",
+                    "implicit": true,
+                    "declAttributes": [
+                      "Transparent"
+                    ],
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(serverConfigurationProvider:deviceInformationProvider:settings:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ObjectDependencies",
+                    "printedName": "FBSDKCoreKit.MACARuleMatchingManager.ObjectDependencies",
+                    "usr": "s:12FBSDKCoreKit23MACARuleMatchingManagerC18ObjectDependenciesV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "_ServerConfigurationProviding",
+                    "printedName": "FBSDKCoreKit._ServerConfigurationProviding",
+                    "usr": "c:objc(pl)FBSDKServerConfigurationProviding"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "_DeviceInformationProviding",
+                    "printedName": "FBSDKCoreKit._DeviceInformationProviding",
+                    "usr": "c:objc(pl)FBSDKDeviceInformationProviding"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SettingsProtocol",
+                    "printedName": "FBSDKCoreKit.SettingsProtocol",
+                    "usr": "c:@M@FBSDKCoreKit@objc(pl)FBSDKSettings"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:12FBSDKCoreKit23MACARuleMatchingManagerC18ObjectDependenciesV27serverConfigurationProvider017deviceInformationJ08settingsAESo011FBSDKServerI9Providing_p_So011FBSDKDevicelO0_pAA16SettingsProtocol_ptcfc",
+                "mangledName": "$s12FBSDKCoreKit23MACARuleMatchingManagerC18ObjectDependenciesV27serverConfigurationProvider017deviceInformationJ08settingsAESo011FBSDKServerI9Providing_p_So011FBSDKDevicelO0_pAA16SettingsProtocol_ptcfc",
+                "moduleName": "FBSDKCoreKit",
+                "implicit": true,
+                "init_kind": "Designated"
+              }
+            ],
+            "declKind": "Struct",
+            "usr": "s:12FBSDKCoreKit23MACARuleMatchingManagerC18ObjectDependenciesV",
+            "mangledName": "$s12FBSDKCoreKit23MACARuleMatchingManagerC18ObjectDependenciesV",
+            "moduleName": "FBSDKCoreKit",
+            "isFromExtension": true
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@FBSDKCoreKit@objc(cs)FBSDKMACARuleMatchingManager",
+        "mangledName": "$s12FBSDKCoreKit23MACARuleMatchingManagerC",
+        "moduleName": "FBSDKCoreKit",
+        "objc_name": "FBSDKMACARuleMatchingManager",
+        "declAttributes": [
+          "Final",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "MACARuleMatching",
+            "printedName": "MACARuleMatching",
+            "usr": "c:@M@FBSDKCoreKit@objc(pl)FBSDKMACARuleMatching",
+            "mangledName": "$s12FBSDKCoreKit16MACARuleMatchingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "DependentAsObject",
+            "printedName": "DependentAsObject",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ObjectDependencies",
+                "printedName": "ObjectDependencies",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ObjectDependencies",
+                    "printedName": "FBSDKCoreKit.MACARuleMatchingManager.ObjectDependencies",
+                    "usr": "s:12FBSDKCoreKit23MACARuleMatchingManagerC18ObjectDependenciesV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:12FBSDKCoreKit17DependentAsObjectP",
+            "mangledName": "$s12FBSDKCoreKit17DependentAsObjectP"
+          }
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "MissingDependenciesError",
         "printedName": "MissingDependenciesError",
@@ -36785,6 +38278,718 @@
           "AccessControl",
           "ObjC",
           "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FBSDKCoreKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ProtectedModeManager",
+        "printedName": "ProtectedModeManager",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "isEnabled",
+            "printedName": "isEnabled",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12FBSDKCoreKit20ProtectedModeManagerC9isEnabled013_23E3C687B8F4H18C50A3A25F390F8C518LLSbvp",
+            "mangledName": "$s12FBSDKCoreKit20ProtectedModeManagerC9isEnabled013_23E3C687B8F4H18C50A3A25F390F8C518LLSbvp",
+            "moduleName": "FBSDKCoreKit",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 0,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "standardParametersDefault",
+            "printedName": "standardParametersDefault",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Set",
+                "printedName": "Swift.Set<Swift.String>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sh"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12FBSDKCoreKit20ProtectedModeManagerC25standardParametersDefault013_23E3C687B8F4I18C50A3A25F390F8C518LLShySSGvp",
+            "mangledName": "$s12FBSDKCoreKit20ProtectedModeManagerC25standardParametersDefault013_23E3C687B8F4I18C50A3A25F390F8C518LLShySSGvp",
+            "moduleName": "FBSDKCoreKit",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 1,
+            "isLet": true,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "standardParameters",
+            "printedName": "standardParameters",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Set",
+                "printedName": "Swift.Set<Swift.String>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sh"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12FBSDKCoreKit20ProtectedModeManagerC18standardParameters013_23E3C687B8F4H18C50A3A25F390F8C518LLShySSGvp",
+            "mangledName": "$s12FBSDKCoreKit20ProtectedModeManagerC18standardParameters013_23E3C687B8F4H18C50A3A25F390F8C518LLShySSGvp",
+            "moduleName": "FBSDKCoreKit",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 2,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "configuredDependencies",
+            "printedName": "configuredDependencies",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "FBSDKCoreKit.ProtectedModeManager.ObjectDependencies?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ObjectDependencies",
+                    "printedName": "FBSDKCoreKit.ProtectedModeManager.ObjectDependencies",
+                    "usr": "s:12FBSDKCoreKit20ProtectedModeManagerC18ObjectDependenciesV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12FBSDKCoreKit20ProtectedModeManagerC22configuredDependenciesAC06ObjectG0VSgvp",
+            "mangledName": "$s12FBSDKCoreKit20ProtectedModeManagerC22configuredDependenciesAC06ObjectG0VSgvp",
+            "moduleName": "FBSDKCoreKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 3,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "FBSDKCoreKit.ProtectedModeManager.ObjectDependencies?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ObjectDependencies",
+                        "printedName": "FBSDKCoreKit.ProtectedModeManager.ObjectDependencies",
+                        "usr": "s:12FBSDKCoreKit20ProtectedModeManagerC18ObjectDependenciesV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FBSDKCoreKit20ProtectedModeManagerC22configuredDependenciesAC06ObjectG0VSgvg",
+                "mangledName": "$s12FBSDKCoreKit20ProtectedModeManagerC22configuredDependenciesAC06ObjectG0VSgvg",
+                "moduleName": "FBSDKCoreKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "FBSDKCoreKit.ProtectedModeManager.ObjectDependencies?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ObjectDependencies",
+                        "printedName": "FBSDKCoreKit.ProtectedModeManager.ObjectDependencies",
+                        "usr": "s:12FBSDKCoreKit20ProtectedModeManagerC18ObjectDependenciesV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FBSDKCoreKit20ProtectedModeManagerC22configuredDependenciesAC06ObjectG0VSgvs",
+                "mangledName": "$s12FBSDKCoreKit20ProtectedModeManagerC22configuredDependenciesAC06ObjectG0VSgvs",
+                "moduleName": "FBSDKCoreKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FBSDKCoreKit20ProtectedModeManagerC22configuredDependenciesAC06ObjectG0VSgvM",
+                "mangledName": "$s12FBSDKCoreKit20ProtectedModeManagerC22configuredDependenciesAC06ObjectG0VSgvM",
+                "moduleName": "FBSDKCoreKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "defaultDependencies",
+            "printedName": "defaultDependencies",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "FBSDKCoreKit.ProtectedModeManager.ObjectDependencies?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ObjectDependencies",
+                    "printedName": "FBSDKCoreKit.ProtectedModeManager.ObjectDependencies",
+                    "usr": "s:12FBSDKCoreKit20ProtectedModeManagerC18ObjectDependenciesV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12FBSDKCoreKit20ProtectedModeManagerC19defaultDependenciesAC06ObjectG0VSgvp",
+            "mangledName": "$s12FBSDKCoreKit20ProtectedModeManagerC19defaultDependenciesAC06ObjectG0VSgvp",
+            "moduleName": "FBSDKCoreKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 4,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "FBSDKCoreKit.ProtectedModeManager.ObjectDependencies?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ObjectDependencies",
+                        "printedName": "FBSDKCoreKit.ProtectedModeManager.ObjectDependencies",
+                        "usr": "s:12FBSDKCoreKit20ProtectedModeManagerC18ObjectDependenciesV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FBSDKCoreKit20ProtectedModeManagerC19defaultDependenciesAC06ObjectG0VSgvg",
+                "mangledName": "$s12FBSDKCoreKit20ProtectedModeManagerC19defaultDependenciesAC06ObjectG0VSgvg",
+                "moduleName": "FBSDKCoreKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "FBSDKCoreKit.ProtectedModeManager.ObjectDependencies?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ObjectDependencies",
+                        "printedName": "FBSDKCoreKit.ProtectedModeManager.ObjectDependencies",
+                        "usr": "s:12FBSDKCoreKit20ProtectedModeManagerC18ObjectDependenciesV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FBSDKCoreKit20ProtectedModeManagerC19defaultDependenciesAC06ObjectG0VSgvs",
+                "mangledName": "$s12FBSDKCoreKit20ProtectedModeManagerC19defaultDependenciesAC06ObjectG0VSgvs",
+                "moduleName": "FBSDKCoreKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FBSDKCoreKit20ProtectedModeManagerC19defaultDependenciesAC06ObjectG0VSgvM",
+                "mangledName": "$s12FBSDKCoreKit20ProtectedModeManagerC19defaultDependenciesAC06ObjectG0VSgvM",
+                "moduleName": "FBSDKCoreKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "enable",
+            "printedName": "enable()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@FBSDKCoreKit@objc(cs)FBSDKProtectedModeManager(im)enable",
+            "mangledName": "$s12FBSDKCoreKit20ProtectedModeManagerC6enableyyF",
+            "moduleName": "FBSDKCoreKit",
+            "objc_name": "enable",
+            "declAttributes": [
+              "Final",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "processParameters",
+            "printedName": "processParameters(_:eventName:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[FBSDKCoreKit.AppEvents.ParameterName : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[FBSDKCoreKit.AppEvents.ParameterName : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ParameterName",
+                        "printedName": "FBSDKCoreKit.AppEvents.ParameterName",
+                        "usr": "c:FBSDKAppEventParameterName.h@T@FBSDKAppEventParameterName"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[FBSDKCoreKit.AppEvents.ParameterName : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[FBSDKCoreKit.AppEvents.ParameterName : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ParameterName",
+                        "printedName": "FBSDKCoreKit.AppEvents.ParameterName",
+                        "usr": "c:FBSDKAppEventParameterName.h@T@FBSDKAppEventParameterName"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "FBSDKCoreKit.AppEvents.Name?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Name",
+                    "printedName": "FBSDKCoreKit.AppEvents.Name",
+                    "usr": "c:FBSDKAppEventName.h@T@FBSDKAppEventName"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@FBSDKCoreKit@objc(cs)FBSDKProtectedModeManager(im)processParameters:eventName:",
+            "mangledName": "$s12FBSDKCoreKit20ProtectedModeManagerC17processParameters_9eventNameSDySo022FBSDKAppEventParameterI0aypGSgAI_So0jkI0aSgtF",
+            "moduleName": "FBSDKCoreKit",
+            "objc_name": "processParameters:eventName:",
+            "declAttributes": [
+              "Final",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ProtectedModeManager",
+                "printedName": "FBSDKCoreKit.ProtectedModeManager",
+                "usr": "c:@M@FBSDKCoreKit@objc(cs)FBSDKProtectedModeManager"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@FBSDKCoreKit@objc(cs)FBSDKProtectedModeManager(im)init",
+            "mangledName": "$s12FBSDKCoreKit20ProtectedModeManagerCACycfc",
+            "moduleName": "FBSDKCoreKit",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "ObjectDependencies",
+            "printedName": "ObjectDependencies",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "serverConfigurationProvider",
+                "printedName": "serverConfigurationProvider",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "_ServerConfigurationProviding",
+                    "printedName": "FBSDKCoreKit._ServerConfigurationProviding",
+                    "usr": "c:objc(pl)FBSDKServerConfigurationProviding"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:12FBSDKCoreKit20ProtectedModeManagerC18ObjectDependenciesV27serverConfigurationProviderSo011FBSDKServerI9Providing_pvp",
+                "mangledName": "$s12FBSDKCoreKit20ProtectedModeManagerC18ObjectDependenciesV27serverConfigurationProviderSo011FBSDKServerI9Providing_pvp",
+                "moduleName": "FBSDKCoreKit",
+                "declAttributes": [
+                  "HasStorage"
+                ],
+                "fixedbinaryorder": 0,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "_ServerConfigurationProviding",
+                        "printedName": "FBSDKCoreKit._ServerConfigurationProviding",
+                        "usr": "c:objc(pl)FBSDKServerConfigurationProviding"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:12FBSDKCoreKit20ProtectedModeManagerC18ObjectDependenciesV27serverConfigurationProviderSo011FBSDKServerI9Providing_pvg",
+                    "mangledName": "$s12FBSDKCoreKit20ProtectedModeManagerC18ObjectDependenciesV27serverConfigurationProviderSo011FBSDKServerI9Providing_pvg",
+                    "moduleName": "FBSDKCoreKit",
+                    "implicit": true,
+                    "declAttributes": [
+                      "Transparent"
+                    ],
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "_ServerConfigurationProviding",
+                        "printedName": "FBSDKCoreKit._ServerConfigurationProviding",
+                        "usr": "c:objc(pl)FBSDKServerConfigurationProviding"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:12FBSDKCoreKit20ProtectedModeManagerC18ObjectDependenciesV27serverConfigurationProviderSo011FBSDKServerI9Providing_pvs",
+                    "mangledName": "$s12FBSDKCoreKit20ProtectedModeManagerC18ObjectDependenciesV27serverConfigurationProviderSo011FBSDKServerI9Providing_pvs",
+                    "moduleName": "FBSDKCoreKit",
+                    "implicit": true,
+                    "declAttributes": [
+                      "Transparent"
+                    ],
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:12FBSDKCoreKit20ProtectedModeManagerC18ObjectDependenciesV27serverConfigurationProviderSo011FBSDKServerI9Providing_pvM",
+                    "mangledName": "$s12FBSDKCoreKit20ProtectedModeManagerC18ObjectDependenciesV27serverConfigurationProviderSo011FBSDKServerI9Providing_pvM",
+                    "moduleName": "FBSDKCoreKit",
+                    "implicit": true,
+                    "declAttributes": [
+                      "Transparent"
+                    ],
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(serverConfigurationProvider:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ObjectDependencies",
+                    "printedName": "FBSDKCoreKit.ProtectedModeManager.ObjectDependencies",
+                    "usr": "s:12FBSDKCoreKit20ProtectedModeManagerC18ObjectDependenciesV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "_ServerConfigurationProviding",
+                    "printedName": "FBSDKCoreKit._ServerConfigurationProviding",
+                    "usr": "c:objc(pl)FBSDKServerConfigurationProviding"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:12FBSDKCoreKit20ProtectedModeManagerC18ObjectDependenciesV27serverConfigurationProviderAESo011FBSDKServerI9Providing_p_tcfc",
+                "mangledName": "$s12FBSDKCoreKit20ProtectedModeManagerC18ObjectDependenciesV27serverConfigurationProviderAESo011FBSDKServerI9Providing_p_tcfc",
+                "moduleName": "FBSDKCoreKit",
+                "implicit": true,
+                "init_kind": "Designated"
+              }
+            ],
+            "declKind": "Struct",
+            "usr": "s:12FBSDKCoreKit20ProtectedModeManagerC18ObjectDependenciesV",
+            "mangledName": "$s12FBSDKCoreKit20ProtectedModeManagerC18ObjectDependenciesV",
+            "moduleName": "FBSDKCoreKit",
+            "isFromExtension": true,
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@FBSDKCoreKit@objc(cs)FBSDKProtectedModeManager",
+        "mangledName": "$s12FBSDKCoreKit20ProtectedModeManagerC",
+        "moduleName": "FBSDKCoreKit",
+        "objc_name": "FBSDKProtectedModeManager",
+        "declAttributes": [
+          "Final",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "DependentAsObject",
+            "printedName": "DependentAsObject",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ObjectDependencies",
+                "printedName": "ObjectDependencies",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ObjectDependencies",
+                    "printedName": "FBSDKCoreKit.ProtectedModeManager.ObjectDependencies",
+                    "usr": "s:12FBSDKCoreKit20ProtectedModeManagerC18ObjectDependenciesV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:12FBSDKCoreKit17DependentAsObjectP",
+            "mangledName": "$s12FBSDKCoreKit17DependentAsObjectP"
+          }
         ]
       },
       {
@@ -63015,28 +65220,28 @@
     {
       "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKCoreKit\/FBSDKCoreKit\/Internal\/Configuration\/CoreKitComponents.swift",
       "kind": "StringLiteral",
-      "offset": 13346,
+      "offset": 13668,
       "length": 74,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKCoreKit\/FBSDKCoreKit\/Internal\/Configuration\/CoreKitComponents.swift",
       "kind": "StringLiteral",
-      "offset": 13378,
+      "offset": 13700,
       "length": 1,
       "value": "\".\""
     },
     {
       "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKCoreKit\/FBSDKCoreKit\/Internal\/Configuration\/CoreKitComponents.swift",
       "kind": "StringLiteral",
-      "offset": 13413,
+      "offset": 13735,
       "length": 5,
       "value": "\"nil\""
     },
     {
       "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKCoreKit\/FBSDKCoreKit\/Internal\/Configuration\/CoreKitComponents.swift",
       "kind": "StringLiteral",
-      "offset": 13419,
+      "offset": 13741,
       "length": 1,
       "value": "\"\""
     },
@@ -64805,6 +67010,20 @@
       "value": "\"\""
     },
     {
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKCoreKit\/FBSDKCoreKit\/AppEvents\/Internal\/Integrity\/MACARuleMatchingManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 357,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKCoreKit\/FBSDKCoreKit\/AppEvents\/Internal\/Integrity\/MACARuleMatchingManager.swift",
+      "kind": "Array",
+      "offset": 422,
+      "length": 262,
+      "value": "[\"event\", \"_locale\", \"_appVersion\", \"_deviceOS\", \"_platform\", \"_deviceModel\", \"_nativeAppID\", \"_nativeAppShortVersion\", \"_timezone\", \"_carrier\", \"_deviceOSTypeName\", \"_deviceOSVersion\", \"_remainingDiskGB\"]"
+    },
+    {
       "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKCoreKit\/FBSDKCoreKit\/Permission.swift",
       "kind": "StringLiteral",
       "offset": 7931,
@@ -65629,6 +67848,27 @@
       "offset": 858,
       "length": 7,
       "value": "\"FBSDKCoreKit.Profile\""
+    },
+    {
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKCoreKit\/FBSDKCoreKit\/AppEvents\/Internal\/Integrity\/ProtectedModeManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 365,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKCoreKit\/FBSDKCoreKit\/AppEvents\/Internal\/Integrity\/ProtectedModeManager.swift",
+      "kind": "Array",
+      "offset": 426,
+      "length": 3246,
+      "value": "[\"_currency\", \"_valueToSum\", \"fb_availability\", \"fb_body_style\", \"fb_checkin_date\", \"fb_checkout_date\", \"fb_city\", \"fb_condition_of_vehicle\", \"fb_content_category\", \"fb_content_ids\", \"fb_content_name\", \"fb_content_type\", \"fb_contents\", \"fb_country\", \"fb_currency\", \"fb_delivery_category\", \"fb_departing_arrival_date\", \"fb_departing_departure_date\", \"fb_destination_airport\", \"fb_destination_ids\", \"fb_dma_code\", \"fb_drivetrain\", \"fb_exterior_color\", \"fb_fuel_type\", \"fb_hotel_score\", \"fb_interior_color\", \"fb_lease_end_date\", \"fb_lease_start_date\", \"fb_listing_type\", \"fb_make\", \"fb_mileage.unit\", \"fb_mileage.value\", \"fb_model\", \"fb_neighborhood\", \"fb_num_adults\", \"fb_num_children\", \"fb_num_infants\", \"fb_num_items\", \"fb_order_id\", \"fb_origin_airport\", \"fb_postal_code\", \"fb_predicted_ltv\", \"fb_preferred_baths_range\", \"fb_preferred_beds_range\", \"fb_preferred_neighborhoods\", \"fb_preferred_num_stops\", \"fb_preferred_price_range\", \"fb_preferred_star_ratings\", \"fb_price\", \"fb_property_type\", \"fb_region\", \"fb_returning_arrival_date\", \"fb_returning_departure_date\", \"fb_search_string\", \"fb_state_of_vehicle\", \"fb_status\", \"fb_suggested_destinations\", \"fb_suggested_home_listings\", \"fb_suggested_hotels\", \"fb_suggested_jobs\", \"fb_suggested_local_service_businesses\", \"fb_suggested_location_based_items\", \"fb_suggested_vehicles\", \"fb_transmission\", \"fb_travel_class\", \"fb_travel_end\", \"fb_travel_start\", \"fb_trim\", \"fb_user_bucket\", \"fb_value\", \"fb_vin\", \"fb_year\", \"lead_event_source\", \"predicted_ltv\", \"product_catalog_id\", \"app_user_id\", \"appVersion\", \"_eventName\", \"_eventName_md5\", \"_currency\", \"_implicitlyLogged\", \"_inBackground\", \"_isTimedEvent\", \"_logTime\", \"fb_order_id\", \"_session_id\", \"_ui\", \"_valueToSum\", \"_valueToUpdate\", \"_is_fb_codeless\", \"_is_suggested_event\", \"_fb_pixel_referral_id\", \"fb_pixel_id\", \"trace_id\", \"user_agent\", \"subscription_id\", \"predicted_ltv\", \"event_id\", \"_restrictedParams\", \"_onDeviceParams\", \"purchase_valid_result_type\", \"core_lib_included\", \"login_lib_included\", \"share_lib_included\", \"place_lib_included\", \"messenger_lib_included\", \"applinks_lib_included\", \"marketing_lib_included\", \"_codeless_action\", \"sdk_initialized\", \"billing_client_lib_included\", \"billing_service_lib_included\", \"user_data_keys\", \"device_push_token\", \"fb_mobile_pckg_fp\", \"fb_mobile_app_cert_hash\", \"aggregate_id\", \"anonymous_id\", \"campaign_ids\", \"fb_post_attachment\", \"receipt_data\", \"ad_type\", \"fb_content\", \"fb_content_id\", \"fb_content_type\", \"fb_currency\", \"fb_description\", \"fb_level\", \"fb_max_rating_value\", \"fb_num_items\", \"fb_order_id\", \"fb_payment_info_available\", \"fb_registration_method\", \"fb_search_string\", \"fb_success\", \"pm\", \"_audiencePropertyIds\", \"cs_maca\"]"
+    },
+    {
+      "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKCoreKit\/FBSDKCoreKit\/AppEvents\/Internal\/Integrity\/ProtectedModeManager.swift",
+      "kind": "Array",
+      "offset": 3721,
+      "length": 2,
+      "value": "[]"
     },
     {
       "filePath": "\/Users\/kylinchang\/Workspace\/internal\/facebook-ios-sdk\/FBSDKCoreKit\/FBSDKCoreKit\/Settings+Logging.swift",

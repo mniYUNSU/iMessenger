@@ -202,6 +202,10 @@ final public class KeychainStoreFactory : FBSDKCoreKit.KeychainStoreProviding {
   @objc final public func createKeychainStore(service: Swift.String, accessGroup: Swift.String?) -> FBSDKCoreKit.KeychainStoreProtocol
   @objc deinit
 }
+@objc(FBSDKMACARuleMatching) public protocol MACARuleMatching {
+  @objc func enable()
+  @objc func processParameters(_ params: Foundation.NSDictionary?, event: Swift.String?) -> Foundation.NSDictionary?
+}
 public enum Permission : Swift.Hashable, Swift.ExpressibleByStringLiteral {
   case publicProfile
   case userFriends

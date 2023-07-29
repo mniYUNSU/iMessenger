@@ -8,9 +8,13 @@
 import UIKit
 import Firebase
 import FBSDKCoreKit
+import FirebaseCore
+import FirebaseAuth
+import GoogleSignIn
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
+        
     func application(
         _ application: UIApplication,
         didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?
@@ -22,7 +26,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             application,
             didFinishLaunchingWithOptions: launchOptions
         )
-        
+
         return true
     }
     
@@ -37,5 +41,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             sourceApplication: options[UIApplication.OpenURLOptionsKey.sourceApplication] as? String,
             annotation: options[UIApplication.OpenURLOptionsKey.annotation]
         )
+        
+        var handled: Bool
+        handled = GIDSignIn.sharedInstance.handle(url)
+        
+        if handled {
+            return true
+        }
+        
+        return false
     }
+    
 }
